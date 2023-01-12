@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
+.logo{
+    background-color: aqua;
+    height: 50px;
+    width: 45px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.navbar{
+    position: absolute;
+    width: 50%;
+    height: 35px;
+    background-color: aquamarine;
+    top: 23px;
+    margin-left: 43%;
+}
+/*master section start*/
+.master{
+    background-color: blueviolet;
+    height: 687px;
+}
+.content{
+    position: absolute;
+    background-color: bisque;
+    height: 70%;
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.content h1{
+    background-color: green;
+    height: 20%;
+    width: 45%;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.content p{
+    background-color: greenyellow;
+    height: 25%;
+    width: 35%;
+    margin-top: 55px;
+    margin-left: 175px;
+}
+.content .button{
+    background-color: rgb(4, 133, 246);
+    position: absolute;
+    padding: 20px 45px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 35%;
+}
+.specific{
+    position: absolute;
+    background-color: rgb(211, 244, 177);
+    height: 70%;
+    width: 35%;
+    margin-top: 80px;
+    margin-left: 60%;
+}
+/*about section start*/
+.about{
+    background-color: rgb(246, 163, 55);
+    height: 760px;
+}
+.eraser{
+    position: absolute;
+    background-color: cyan;
+    height: 70%;
+    width: 35%;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.about .shape{
+    position: absolute;
+    background-color: rgb(98, 98, 225);
+    height: 70%;
+    width: 35%;
+    margin-top: 7%;
+    margin-left: 60%;
+}
+.shape h1{
+    background-color: crimson;
+    height: 20%;
+    width: 55%;
+    margin-top: 35px;
+    margin-left: 130px;
+}
+.shape p{
+    background-color:brown;
+    height: 30%;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.shape .click{
+    background-color: rgb(248, 176, 20);
+    position: absolute;
+    padding: 20px 45px;
+    margin-left: 43%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+/*facility section start*/
+.facility{
+    background-color: darkkhaki;
+    height: 760px;
+}
+.layout{
+    position: absolute;
+    background-color: darkmagenta;
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 47%;
+}
+.jack{
+    position: absolute;
+    background-color: dodgerblue;
+    height: 40px;
+    width: 130px;
+    margin-top: 60px; 
+    margin-left: 45.5%;     
+}
+.tomb li{
+    background-color: rgb(27, 238, 167);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    margin-left: 110px;
+}
+.stick li{
+    background-color: rgb(5, 125, 85);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 190px;
+    margin-right: auto;
+    margin-left: 125px;
+}
+.round li{
+    background-color: rgb(201, 245, 8);
+    height: 60px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 250px;
+    margin-left: 125px;
+}
+/*menu section start*/
+.menu{
+    background-color: lightseagreen;
+    height: 764px;
+}
+.main{
+    position: absolute;
+    background-color: rgb(146, 4, 248);
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 47%;
+}
+.domain{
+    position: absolute;
+    background-color: rgb(7, 129, 251);
+    height: 30px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 45.5%;
+}
+.minute li{
+    background-color: rgb(6, 21, 224);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    margin-left: 200px; 
+}
+.seconds li{
+    background-color: rgb(28, 135, 235);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 190px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+.watch li{
+    background-color: rgb(42, 224, 6);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 220px;
+    margin-left: 200px; 
+}
+.chain li{
+    background-color: rgb(14, 237, 196);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 230px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+/*gallery section*/
+.gallery{
+    background-color: fuchsia;
+    height: 763px;
+}
+.pencil{
+    position: absolute;
+    background-color: rgb(252, 39, 6);
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 47%;
+}
+.hero{
+    position: absolute;
+    background-color: rgb(31, 251, 7);
+    height: 30px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 45.5%;
+}
+.photos li{
+    background-color: rgb(243, 25, 138);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    margin-left: 205px;
+}
+.pictures li{
+    background-color: rgb(235, 79, 160);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 250px;
+    margin-left: 205px
+}
+/*team section start*/
+.team{
+    background-color: khaki;
+    height: 763px;
+}
+.sunrise{
+    position: absolute;
+    background-color: rgb(46, 9, 233);
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 47%;
+}
+.sunset{
+    position: absolute;
+    background-color: rgb(251, 56, 7);
+    height: 30px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 45.2%;
+}
+.laps li{
+    background-color: rgb(6, 176, 249);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    margin-left: 205px;
+}
+.tops li{
+    background-color: rgb(5, 226, 42);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 170px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+.zig li{
+    background-color: rgb(6, 176, 249);
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 200px;
+    margin-left: 205px;
+}
+.zag li{
+    background-color: rgb(5, 226, 42);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 220px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+/*contact section */
+.contact{
+    background-color: brown;
+    height: 763px;
+}
+.root{
+    position: absolute;
+    background-color: bisque;
+    height: 75%;
+    width: 43%;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.jeep{
+    position: absolute;
+    background-color: rgb(211, 244, 177);
+    height: 75%;
+    width: 35%;
+    margin-top: 80px;
+    margin-left: 60%;
+}
+.car{
+    background-color: blueviolet;
+    height: 10%;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.bike li{
+    background-color: rgb(6, 176, 249);
+    height: 50px;
+    width: 150px;
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin-bottom: 50px;
+}
+.cycle li{
+    background-color: rgb(2, 240, 26);
+    height: 50px;
+    width: 230px;
+    display: block;
+    position: relative;
+    bottom: 252px;
+    left: 230px;
+    margin-bottom: 50px;
+}
+.jeep .apply{
+    background-color: rgb(218, 8, 19);
+    position: absolute;
+    padding: 20px 45px;
+    border-radius: 10px;
+    top: 80%;
+    margin-left: 41%;
+}
+/*icons section start*/
+.icons{
+    background-color: greenyellow;
+    height: 763px;
+}
+.magic li{
+    background-color: rgb(243, 25, 138);
+    height: 200px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 80px;
+    margin-left: 130px;
+}
+.panic li{
+    background-color: rgb(5, 226, 42);
+    height: 50px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    top: 120px;
+    margin-right: auto;
+    margin-left: 110px;
+}
+.glass li{
+    background-color: rgb(245, 8, 131);
+    height: 60px;
+    width: 200px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    margin-left: 130px;
+}
+.line{
+    position: relative;
+    border: 5px solid black;
+    width: 80%;
+    top: 300px;
+    left: 10%;
+}
+.mail{
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    background-color: darkgoldenrod;
+    margin-top: 22%;
+    margin-left: 21%;
+    border-radius: 10px;
+}
